@@ -1,0 +1,24 @@
+{
+  "version": "277e9f76e513",
+  "count": 3,
+  "templates": [
+    {
+      "path": "cves/CVE-2026-50522.yaml",
+      "id": "CVE-2026-50522",
+      "severity": "critical",
+      "sha256": "f78ec4e2897c8309e504e76a521ad758fdd2d1d336e6045d110b43189be75722"
+    },
+    {
+      "path": "cves/CVE-2026-56164.yaml",
+      "id": "CVE-2026-56164",
+      "severity": "critical",
+      "sha256": "5a5366b49a07c9a24626ae47bd22400e26d579ec7a2843d2e72406d4c4735857"
+    },
+    {
+      "path": "cves/CVE-2026-63030.yaml",
+      "id": "CVE-2026-63030",
+      "severity": "critical",
+      "sha256": "ff92c34de2d67abef837f31c820a39ff7f5d0afa0ce42264a470715d1353a07e"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install nuclei
+        run: |
+          set -euo pipefail
+          version=$(curl -sSL https://api.github.com/repos/projectdiscovery/nuclei/releases/latest \
+            | grep tag_name | cut -d '"' -f 4 | tr -d 'v')
+          curl -sSL "https://github.com/projectdiscovery/nuclei/releases/latest/download/nuclei_${version}_linux_amd64.zip" \
+            -o /tmp/nuclei.zip
+          sudo unzip -o /tmp/nuclei.zip -d /usr/local/bin
+          nuclei -version
+
+      - name: Templates present
+        run: |
+          set -euo pipefail
+          count=$(find cves -name '*.yaml' | wc -l)
+          if [ "$count" -eq 0 ]; then
+            echo "no templates under cves/, refusing to publish an empty bundle"
+            exit 1
+          fi
+          echo "$count templates"
+
+      - name: Schema validation
+        run: nuclei -validate -t cves/ -duc
+
+      - name: Manifest in sync
+        run: |
+          python3 -m pip install --quiet pyyaml
+          python3 scripts/build_manifest.py --check
