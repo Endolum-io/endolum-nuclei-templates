@@ -1,24 +1,246 @@
 {
-  "version": "af710707ebe4",
-  "count": 4,
+  "version": "9e5a5730a62f",
+  "count": 41,
   "templates": [
+    {
+      "path": "cves/CVE-2015-5317.yaml",
+      "id": "CVE-2015-5317",
+      "severity": "high",
+      "sha256": "41694cdce1bcecb20835e90a465b1d1f8278ed5fadf9b025e9c04ede4f536e99"
+    },
+    {
+      "path": "cves/CVE-2017-1000353.yaml",
+      "id": "CVE-2017-1000353",
+      "severity": "critical",
+      "sha256": "9cdb4db90cd1c73f841ce75d6ed499c09db059b1ef208838da863ef72cee7c92"
+    },
+    {
+      "path": "cves/CVE-2018-1000861.yaml",
+      "id": "CVE-2018-1000861",
+      "severity": "critical",
+      "sha256": "6c0080499aa81faf0e9e16f82421c600d05cc53f501629c56e6b05bce135b744"
+    },
+    {
+      "path": "cves/CVE-2019-1003029.yaml",
+      "id": "CVE-2019-1003029",
+      "severity": "critical",
+      "sha256": "94961a12d6f7e1128a32dbf931d4c1edcbe13d3cef1b8bda905ec4c1797b2d99"
+    },
+    {
+      "path": "cves/CVE-2019-1003030.yaml",
+      "id": "CVE-2019-1003030",
+      "severity": "critical",
+      "sha256": "99aa649b6f47c4c34babe7a66dab57ca1724b017325a63bffaec2e4a6ffbc1a6"
+    },
+    {
+      "path": "cves/CVE-2019-3396.yaml",
+      "id": "CVE-2019-3396",
+      "severity": "critical",
+      "sha256": "f463869c5eb59ea6d37cc4d012b55091c6ddb025f1f01cb686f7f3e999fd8b1c"
+    },
+    {
+      "path": "cves/CVE-2019-3398.yaml",
+      "id": "CVE-2019-3398",
+      "severity": "high",
+      "sha256": "fa32a7402d897e152c2f0da9777bffbbe051c0a031789b6e05b73f1d2b9cea98"
+    },
+    {
+      "path": "cves/CVE-2021-26084.yaml",
+      "id": "CVE-2021-26084",
+      "severity": "critical",
+      "sha256": "80236db7ecefe5dc1a2f0505f4ac7a8ba326f5bf13bb3e6416b450be3748ddde"
+    },
+    {
+      "path": "cves/CVE-2021-26085.yaml",
+      "id": "CVE-2021-26085",
+      "severity": "medium",
+      "sha256": "70c177dc3c494ad87ef40a2852dd1d71ab54a5ae4f587e08a14ce19fafc2ce6d"
+    },
+    {
+      "path": "cves/CVE-2021-41277.yaml",
+      "id": "CVE-2021-41277",
+      "severity": "critical",
+      "sha256": "ee58867232e7210b9b35556bd1d544378cbdc1c454526ecb16d43abb48a282f4"
+    },
+    {
+      "path": "cves/CVE-2022-26134.yaml",
+      "id": "CVE-2022-26134",
+      "severity": "critical",
+      "sha256": "6d7b547eed1d4b01bff037dddcaa3fc5e69dcc7477107b3ae0bfe7d4c4694c5b"
+    },
+    {
+      "path": "cves/CVE-2023-22515.yaml",
+      "id": "CVE-2023-22515",
+      "severity": "critical",
+      "sha256": "b3ecec477c9ca15744a765a685b16126d474b96cf0184f21c3499c509d2aec7d"
+    },
+    {
+      "path": "cves/CVE-2023-22518.yaml",
+      "id": "CVE-2023-22518",
+      "severity": "critical",
+      "sha256": "d3e99c3a28508e931daedab3ab4a0ffd9d148b81ee37215fe6a1db067f32f59f"
+    },
+    {
+      "path": "cves/CVE-2023-22527.yaml",
+      "id": "CVE-2023-22527",
+      "severity": "critical",
+      "sha256": "29b185e988244d4c13ebfac513d4f4193cb6e1d48f49bf41ec75e13659fc6b6a"
+    },
+    {
+      "path": "cves/CVE-2023-24955.yaml",
+      "id": "CVE-2023-24955",
+      "severity": "high",
+      "sha256": "57bd6cff035fe7408229f5be0c3e0d3754af391c758237e969a628f6c22f8c5c"
+    },
+    {
+      "path": "cves/CVE-2023-29357.yaml",
+      "id": "CVE-2023-29357",
+      "severity": "critical",
+      "sha256": "f8e5e90a87048dd19ee866fa781dd84794c461d2e61975d56a01354b825bdb97"
+    },
+    {
+      "path": "cves/CVE-2023-49105.yaml",
+      "id": "CVE-2023-49105",
+      "severity": "critical",
+      "sha256": "626861138b2b211cdc60b6a0fb524d489b6bbee3b0c64bd0d6bf8842cfc3f94f"
+    },
+    {
+      "path": "cves/CVE-2024-23897.yaml",
+      "id": "CVE-2024-23897",
+      "severity": "critical",
+      "sha256": "2248dff54e7157e835556938e44e80c9d3fb8443709a8f3f3d261d23d0c74637"
+    },
+    {
+      "path": "cves/CVE-2024-38094.yaml",
+      "id": "CVE-2024-38094",
+      "severity": "high",
+      "sha256": "b9edb7108d3e8cf301df620360dad0c757690f13acd5b49dd7977b93e205b9e7"
+    },
+    {
+      "path": "cves/CVE-2025-3248.yaml",
+      "id": "CVE-2025-3248",
+      "severity": "critical",
+      "sha256": "da9640eef89097851d7461b014d04f5194edba7066ea051da4f2f18b583ed8fa"
+    },
+    {
+      "path": "cves/CVE-2025-34291.yaml",
+      "id": "CVE-2025-34291",
+      "severity": "critical",
+      "sha256": "959d1b9ca4f7c97dcccf467f27ac1fe8e2a0e64d58808d63f63897a1d1695521"
+    },
+    {
+      "path": "cves/CVE-2025-49704.yaml",
+      "id": "CVE-2025-49704",
+      "severity": "high",
+      "sha256": "554b45ae884f0984775d143d1a4f8ad54a7b5d389326587e1878c80a77cb6301"
+    },
+    {
+      "path": "cves/CVE-2025-49706.yaml",
+      "id": "CVE-2025-49706",
+      "severity": "medium",
+      "sha256": "e94736117789e8537f17abe4e8e48b08b70fabad8c5916611884a4907a3c85fa"
+    },
+    {
+      "path": "cves/CVE-2025-53770.yaml",
+      "id": "CVE-2025-53770",
+      "severity": "critical",
+      "sha256": "75773cab898221cba27f262e44684b58a9e2f414f45f7c4dbc3dc042404cc031"
+    },
+    {
+      "path": "cves/CVE-2025-62593.yaml",
+      "id": "CVE-2025-62593",
+      "severity": "critical",
+      "sha256": "6fa6fcf0fedc680cb794787a466d8927700ed9a5436d4d513118359bd5fe37f9"
+    },
+    {
+      "path": "cves/CVE-2026-20963.yaml",
+      "id": "CVE-2026-20963",
+      "severity": "critical",
+      "sha256": "928637c460e6e8e1cc3de71781c7cba48bd95f3650a54af2ca316fde2ddb4a66"
+    },
+    {
+      "path": "cves/CVE-2026-32201.yaml",
+      "id": "CVE-2026-32201",
+      "severity": "medium",
+      "sha256": "1fb9cc74ed4e526f1847a43acf730cf68ffdcecd52afc26f8be95454b39c2b36"
+    },
+    {
+      "path": "cves/CVE-2026-33017.yaml",
+      "id": "CVE-2026-33017",
+      "severity": "critical",
+      "sha256": "2787045fea583a9ec271b882b2973096ae4beaea2c018ad988c3bc53aa00fe9c"
+    },
+    {
+      "path": "cves/CVE-2026-45659.yaml",
+      "id": "CVE-2026-45659",
+      "severity": "high",
+      "sha256": "20c785aaf5a8e4594467cda7b14c12f60e697f69da6da0e4413aabac273f9c41"
+    },
     {
       "path": "cves/CVE-2026-50522.yaml",
       "id": "CVE-2026-50522",
       "severity": "critical",
-      "sha256": "f78ec4e2897c8309e504e76a521ad758fdd2d1d336e6045d110b43189be75722"
+      "sha256": "87a3d14f36b370e7c66b941490405cb18fc075303eb4911ea38b73e4308be6ec"
+    },
+    {
+      "path": "cves/CVE-2026-55040.yaml",
+      "id": "CVE-2026-55040",
+      "severity": "critical",
+      "sha256": "f190b3d305a2d4f4977959558ca06ef2b75d803d17b799c0c1954ffef4a79a9f"
+    },
+    {
+      "path": "cves/CVE-2026-55255.yaml",
+      "id": "CVE-2026-55255",
+      "severity": "critical",
+      "sha256": "cd88eb30d4ee3c66520bcc13192ea8f900bb60df9ec99ffedc05772e08623637"
     },
     {
       "path": "cves/CVE-2026-56164.yaml",
       "id": "CVE-2026-56164",
       "severity": "critical",
-      "sha256": "5a5366b49a07c9a24626ae47bd22400e26d579ec7a2843d2e72406d4c4735857"
+      "sha256": "b32ebeb66eaf55a9b0512742e956c9440191ffd87626854e22b06637ff9c54c4"
+    },
+    {
+      "path": "cves/CVE-2026-58644.yaml",
+      "id": "CVE-2026-58644",
+      "severity": "critical",
+      "sha256": "1ce3b8b3be929ef6b90625395b7e3845557d066620ceeaa9b68c77e817c5cb05"
+    },
+    {
+      "path": "cves/CVE-2026-60004.yaml",
+      "id": "CVE-2026-60004",
+      "severity": "critical",
+      "sha256": "3840a6f54f16e322a3984af4fecab6d2d6673bc83ee3c1fb263a9b12d50243d6"
+    },
+    {
+      "path": "cves/CVE-2026-60137.yaml",
+      "id": "CVE-2026-60137",
+      "severity": "medium",
+      "sha256": "05020e4489b6d2bd597d621d832f02af44cad717e618f0d3e42f35ac245269df"
     },
     {
       "path": "cves/CVE-2026-63030.yaml",
       "id": "CVE-2026-63030",
       "severity": "critical",
-      "sha256": "ff92c34de2d67abef837f31c820a39ff7f5d0afa0ce42264a470715d1353a07e"
+      "sha256": "12e509de4decc5a3126264266b92e1b397b4da83dd7c9a97b528f80212a67ea7"
+    },
+    {
+      "path": "cves/CVE-2026-66384.yaml",
+      "id": "CVE-2026-66384",
+      "severity": "medium",
+      "sha256": "7ef31b4798f28077f5049a04c7ccce87014b0565b58d42762d42499599d13ea7"
+    },
+    {
+      "path": "cves/CVE-2026-72898.yaml",
+      "id": "CVE-2026-72898",
+      "severity": "critical",
+      "sha256": "bd2a4673839bf8178fbad1ac3cad649533d014b6b7bd992afd7563c5cba62653"
+    },
+    {
+      "path": "cves/CVE-2026-9198.yaml",
+      "id": "CVE-2026-9198",
+      "severity": "critical",
+      "sha256": "cebf0fe51c6cc6b24ebc97b81c947c3550d0354e4ef51f82b8b53c8e673585fb"
     },
     {
       "path": "cves/metabase-reset-password-sqli.yaml",
