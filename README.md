@@ -42,6 +42,17 @@ scan never fails because this repo was unreachable.
    A version comparison that is off by one octet passes schema validation.
 5. Regenerate the index: `python3 scripts/build_manifest.py`.
 
+For detectors produced by Vuln Radar, run the local distribution gate before
+finishing the research run:
+
+```bash
+python3 scripts/check_vuln_radar_coverage.py
+```
+
+The command fails when a verified detector with a supported scanner severity is
+missing from `cves/`. Unverified `info` fingerprints are reported and skipped
+because Sentinel discards that severity and they do not prove vulnerability.
+
 CI runs steps 3 and 5 in check mode on every push, and fails if the manifest is
 stale or a template is unparseable, carries a duplicate id, or uses a severity
 the scanners would discard.
