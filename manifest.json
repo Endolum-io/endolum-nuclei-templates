@@ -1,6 +1,6 @@
 {
-  "version": "f2a8d23f3427",
-  "count": 42,
+  "version": "b355e4c8b206",
+  "count": 43,
   "templates": [
     {
       "path": "cves/CVE-2015-5317.yaml",
@@ -151,6 +151,12 @@
       "id": "CVE-2025-62593",
       "severity": "critical",
       "sha256": "6fa6fcf0fedc680cb794787a466d8927700ed9a5436d4d513118359bd5fe37f9"
+    },
+    {
+      "path": "cves/CVE-2026-103903.yaml",
+      "id": "CVE-2026-103903",
+      "severity": "high",
+      "sha256": "b4a637b35bedc0d12e7a1c3215607225d3b3523a7ea44f97b75c3b3e971346f0"
     },
     {
       "path": "cves/CVE-2026-20963.yaml",
