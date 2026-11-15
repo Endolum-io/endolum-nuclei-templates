@@ -1,6 +1,6 @@
 {
-  "version": "b355e4c8b206",
-  "count": 43,
+  "version": "7c21c577cefc",
+  "count": 44,
   "templates": [
     {
       "path": "cves/CVE-2015-5317.yaml",
@@ -253,6 +253,12 @@
       "id": "CVE-2026-9198",
       "severity": "critical",
       "sha256": "cebf0fe51c6cc6b24ebc97b81c947c3550d0354e4ef51f82b8b53c8e673585fb"
+    },
+    {
+      "path": "cves/auto/CVE-2026-110186.yaml",
+      "id": "CVE-2026-110186",
+      "severity": "critical",
+      "sha256": "4d678d4f16745c9ded22928c6caaa4b1579c950edcf58174a04cfea75411ce47"
     },
     {
       "path": "cves/metabase-reset-password-sqli.yaml",
