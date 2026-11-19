@@ -1,6 +1,6 @@
 {
-  "version": "7c21c577cefc",
-  "count": 44,
+  "version": "7d34ca3ee7d1",
+  "count": 55,
   "templates": [
     {
       "path": "cves/CVE-2015-5317.yaml",
@@ -157,6 +157,72 @@
       "id": "CVE-2026-103903",
       "severity": "high",
       "sha256": "b4a637b35bedc0d12e7a1c3215607225d3b3523a7ea44f97b75c3b3e971346f0"
+    },
+    {
+      "path": "cves/CVE-2026-113425.yaml",
+      "id": "CVE-2026-113425",
+      "severity": "critical",
+      "sha256": "031ba77f10518e8d3039b3b223e1539aae86310e7c73d26d9ef40d4952d6847b"
+    },
+    {
+      "path": "cves/CVE-2026-118899.yaml",
+      "id": "CVE-2026-118899",
+      "severity": "high",
+      "sha256": "ef1c34b09ccfa0746b702d5c93b678e33792c71824c53cad9325f3a96a710aa2"
+    },
+    {
+      "path": "cves/CVE-2026-119618.yaml",
+      "id": "CVE-2026-119618",
+      "severity": "high",
+      "sha256": "b80f3f874fb0a8b1aa85faffcd0f575e49a39e3a48f121f8a9994d2863092896"
+    },
+    {
+      "path": "cves/CVE-2026-120967.yaml",
+      "id": "CVE-2026-120967",
+      "severity": "medium",
+      "sha256": "39a7655d63c52588ec57f5b3ea5344a0713a55f94b34e18525007c5cd9fbfc6b"
+    },
+    {
+      "path": "cves/CVE-2026-120993.yaml",
+      "id": "CVE-2026-120993",
+      "severity": "medium",
+      "sha256": "16165a1176e181ae5d33ebe78c488289e280cd0867932f1daf1b659f2a1963fe"
+    },
+    {
+      "path": "cves/CVE-2026-121810.yaml",
+      "id": "CVE-2026-121810",
+      "severity": "critical",
+      "sha256": "75ccb76bb358269a8ed0bc5455718987452dbde3f7ef067b4ad55ec808a5c695"
+    },
+    {
+      "path": "cves/CVE-2026-123007.yaml",
+      "id": "CVE-2026-123007",
+      "severity": "critical",
+      "sha256": "800ea47012f5f1e52dab277ca0d3330b08809b3f789dc94bc43176d9e2c2b531"
+    },
+    {
+      "path": "cves/CVE-2026-123633.yaml",
+      "id": "CVE-2026-123633",
+      "severity": "critical",
+      "sha256": "5c0f60b44e1df23b77e7c7791d2ef44d81fa777ec6ddbeef47c9650136c5ae11"
+    },
+    {
+      "path": "cves/CVE-2026-123634.yaml",
+      "id": "CVE-2026-123634",
+      "severity": "critical",
+      "sha256": "d952cc539348f3e5321b9e3e8156f39a315cdf2b7d8579a302ff545e7da580d8"
+    },
+    {
+      "path": "cves/CVE-2026-123640.yaml",
+      "id": "CVE-2026-123640",
+      "severity": "medium",
+      "sha256": "05e2ed54dd93c497bf66971bff42830d5b30da7735a1d29fcd1d5b8456fdde2d"
+    },
+    {
+      "path": "cves/CVE-2026-125283.yaml",
+      "id": "CVE-2026-125283",
+      "severity": "medium",
+      "sha256": "becb2266eaaca4e261e1cdce907090ad7cb64e9cfcf26e7ef6a648af04276b43"
     },
     {
       "path": "cves/CVE-2026-20963.yaml",
